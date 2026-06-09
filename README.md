@@ -12,4 +12,4 @@ Paste Steam Workshop URLs and the tool downloads them.
 
 ---
 
-**Note:** This tool is for personal use only. Mod authors deserve support — buy the game and mods when you can.
+**Note:** This tool is for personal use only.
