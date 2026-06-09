@@ -1,0 +1,5 @@
+# Output folders
+GOG Games/
+rimworld_mods/
+__pycache__/
+*.pyc
