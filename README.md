@@ -1,17 +1,14 @@
-# RimWorld Downloader 🏴‍☠️
+# RimWorld Downloader
 
-Steam Workshop doesn't serve pirate copies. So I built a backdoor.
-
-This tool pulls RimWorld mods straight from Steam's own servers — no legit copy required. One script, zero excuses not to have your mod list sorted.
+A lightweight Python tool that downloads RimWorld mods directly from Steam's workshop servers.
 
 ## How it works
 
-1. Grab a Steam Workshop URL for any RimWorld mod
-2. Paste it in
-3. The tool talks to Steam's backend directly and pulls the mod files
-4. You get a fully packaged mod folder, ready to drop into your RimWorld install
+1. Provide a Steam Workshop URL for any RimWorld mod.
+2. The tool interfaces directly with Steam's API to fetch the mod files.
+3. It packages the mod folder so it can be installed directly into your RimWorld game folder.
 
-No Steam client needed. No authentication. Just raw dogging the Workshop API.
+No local Steam client installation or authentication required.
 
 ## Usage
 
@@ -19,12 +16,12 @@ No Steam client needed. No authentication. Just raw dogging the Workshop API.
 python Main.py
 ```
 
-Paste the Workshop URLs. The tool handles the rest.
+Run the script and follow the prompts to paste your Workshop URLs.
 
 ## Why this exists
 
-Because piracy isn't about not paying — it's about not being locked out. Steam Workshop's DRM means cracked copies can't access mods, which means the modding scene gets split in half. This tool fixes that.
+Access to game mods shouldn't be locked behind specific game clients or platform integrations. Steam Workshop's platform restrictions make it difficult for DRM-free or offline copies of the game to access user-created content. This tool helps bridge that gap, ensuring everyone can access the community's modding scene.
 
 ---
 
-**Note:** I'm not telling you to pirate RimWorld. I'm just giving you the tool to mod it however you want.
+**Disclaimer:** This tool is intended for personal use and backup purposes. Please support mod creators and game developers.
